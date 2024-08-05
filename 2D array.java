@@ -33,6 +33,23 @@ class Main{
           }
       }
      // Q3 - You are given a matrix[][] you have to return max of elments?
+     /* A : { 12 65 35 24
+              22 44 12 30
+              10 12 97 19}
+         
+     }*/
+     // op-: 97
+     static int max(int[][] mat){
+         int max= mat[0][0];
+         for(int r = 0;r<mat.length;r++){
+             for (int c = 0;c<mat[0].length;c++){
+                 if(mat[r][c]>max){
+                     max=mat[r][c];
+                 }
+             }
+         }
+         return max;
+     }
     
     
     public static void main (String args[]){
@@ -47,8 +64,9 @@ class Main{
                 mat[r][c]=scn.nextInt();
             }
         }
-        waveform(mat);
+       // waveform(mat);
        // display(mat);
+       System.out.print(max(mat));
         
     }
     
