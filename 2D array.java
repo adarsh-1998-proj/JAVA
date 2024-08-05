@@ -10,7 +10,7 @@ class Main{
         }
         
     }
-    //Q- waveform printing matrix
+    //Q2- waveform printing matrix?
     /*1 2 3 4 
       4 5 6 21
       7 8 9 23
@@ -32,10 +32,11 @@ class Main{
               }
           }
       }
+     // Q3 - You are given a matrix[][] you have to return max of elments?
     
     
     public static void main (String args[]){
-        //create a 2D array and fill the elements as per user requirements.
+        //q1 create a 2D array and fill the elements as per user requirements.?
         Scanner scn = new Scanner (System.in);
         int m=scn.nextInt();//rows
         int n=scn.nextInt();//columns
